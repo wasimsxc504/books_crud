@@ -30,7 +30,7 @@ public class BooksService {
 		booksRepository.save(books);
 	}
 
-//deleting a specific record Wasim
+//deleting a specific record
 	public void delete(int id) {
 		booksRepository.deleteById(id);
 	}
